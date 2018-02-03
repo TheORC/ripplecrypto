@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!-- HEAD -->
+    <div id="head">
+        <link href="central.css" type="text/css" rel="stylesheet">
+		<link href="rss-feed.css" type="text/css" rel="stylesheet">
+		
+        <title>Ripple Prices | Crypto Currency</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Ripple prices, fast, reliable and user-friendly cryptocurrency prices, exchange information and info in USD, Euro, CAD, AUD, NZD and more."/>
+        <meta name="keywords" content="ripple price, cryptocurrency, crypto, xrp, price"/>
+        <link href="button.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Passion+One|Teko" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Vollkorn+SC" rel="stylesheet">
+    </div>
+    <!-- HEADER -->
+    <header></header>
+    <!-- BODY   -->
+    <body>
+        <br>
+
+        <a id="dark">Night Mode</a>
+    <!--    <div class="parallax" id="myImg">   -->
+            <h1>RIPPLE PRICES</h1>
+            <a href="prices.html" id="btn1"><button> PRICES </button></a>
+
+        </div>
+
+        <div class="linkBox">
+
+            <a href="help.html">
+                <div class="links">
+                    <img id="linkSymbols" src="HelpSymbol.png">
+                    <p id="links"> Help </p>
+                </div>
+            </a>
+
+            <a href="contact.html">
+                <div class="links">
+                    <img id="linkSymbols" src="EmailSymbol.png">
+                    <p id="links"> Contact us </p>
+                </div>
+            </a>
+
+            <a href="prices.html">
+                <div class="links">
+                    <img id="linkSymbols" src="newsPlaceholder.png">
+                    <p id="links"> News </p>
+                </div>
+            </a>
+
+            <a href="prices.html">
+                <div class="links" style="margin-bottom: 2%;">
+                    <img id="linkSymbols" src="DollarSymbol.png">
+                    <p id="links"> Trade Ripple </p>
+                </div>
+            </a>
+        </div>
+
+        <h2> Today's News </h2>
+		
+		<div class="rss-feed">
+			<?php
+				require('rssfeed.php');
+				output_rss_feed('https://feeds.feedburner.com/CoinDesk', 10, true, true, 50);
+			?>
+		</div>
+        
+		<hr>
+    </body>
+
+    <!-- FOOTER -->
+    <footer></footer>
+
+    <script src="dark.js" type="text/javascript"></script>
+</html>

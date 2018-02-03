@@ -1,0 +1,19 @@
+
+.hourbtn{
+	width: 10%;
+	float:left;
+}
+
+.daybtn{
+	width: 10%;
+	float:left;
+}
+
+.yearbtn{
+	width: 10%;
+	float:left;
+}
+
+.clearfix{
+	clear:both;
+}

@@ -1,0 +1,61 @@
+.rss-feed *{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+.rss-feed{
+	display: block;
+	font-family: sans-serif;
+	color: #222222;
+	font-size: 13px;
+	padding-top:30px;
+}
+
+.rss-feed .feed-lists {
+	list-style-type: none;
+	width: 728px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rss-feed .feed-item{
+	background-color: #ffffff;
+	border: 1px solid #d8d8d8;
+	padding: 20px 20px 20px 20px;
+}
+
+.rss-feed .feed-title{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 10px 0px;
+	
+}
+
+.rss-feed .feed-description{
+	font-size: 10px;
+}
+
+.rss-feed .feed-date{
+	font-size: 8px;
+	padding-bottom:5px;
+}
+
+.rss-feed .feed-item-image{
+	max-height: 20%;
+	max-width: 20%;
+	weight: right;
+}
+
+.rss-feed link{
+	float: right;
+	text-align: right;
+	width: 66.66%;
+}
+
+
+channel {
+	width: 728px;
+	margin-left: auto;
+	margin-right: auto;
+}
