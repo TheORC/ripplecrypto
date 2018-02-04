@@ -82,7 +82,7 @@ h2{
 }
 
 #home {
-    margin-left: 10%;
+    margin-left: 2%;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: normal;
@@ -103,7 +103,7 @@ button {
     margin-top: 20px;
     width: 20%;
     height: 45px;
-    background-color: #0b1526;
+    background-color: #273c60;
     border: none;
     color: white;
     border-radius: 0px;
