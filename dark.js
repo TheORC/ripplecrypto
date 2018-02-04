@@ -31,14 +31,14 @@ document.getElementById("dark").onclick = function() {
 function updateTheme(){
     if (!data.night) {
         saveCookies()
-        document.body.style.backgroundColor = "#2e3044";
+        document.body.style.backgroundColor = "white";
 
         //document.getElementById("myImg").style.filter = "brightness(60%)";
         document.getElementById("head").style.borderBottom = "solid rgba(255, 255, 255, 0.6) .5px";
 
     } else if (data.night) {
         saveCookies();
-        document.body.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "#2e3044";
 
         //document.getElementById("myImg").style.filter = "brightness(100%)";
         document.getElementById("head").style.borderBottom = "solid rgba(0, 0, 0, 0.6) .5px";
