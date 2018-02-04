@@ -4,7 +4,7 @@
     <div id="head">
         <link href="central.css" type="text/css" rel="stylesheet">
 		<link href="rss-feed.css" type="text/css" rel="stylesheet">
-		
+
         <title>Ripple Prices | Crypto Currency</title>
         <meta charset="utf-8"/>
         <meta name="description" content="Ripple prices, fast, reliable and user-friendly cryptocurrency prices, exchange information and info in USD, Euro, CAD, AUD, NZD and more."/>
@@ -21,7 +21,6 @@
     <body>
         <br>
 
-        <a id="dark">Night Mode</a>
     <!--    <div class="parallax" id="myImg">   -->
             <h1>RIPPLE PRICES</h1>
             <a href="prices.html" id="btn1"><button> PRICES </button></a>
@@ -60,14 +59,14 @@
         </div>
 
         <h2> Today's News </h2>
-		
+
 		<div class="rss-feed">
 			<?php
 				require('rssfeed.php');
 				output_rss_feed('https://feeds.feedburner.com/CoinDesk', 10, true, true, 50);
 			?>
 		</div>
-        
+
 		<hr>
     </body>
 
